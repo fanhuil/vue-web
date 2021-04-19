@@ -1,0 +1,169 @@
+/* 内容区域 Begin */
+/* 内容区域-左边区域 Begin */
+#c_left {
+	width: 68%;
+	border-radius: 1px;
+}
+
+
+/* 内容区域-左边区域-查看更多 Begin */
+.more{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin: 10px 0;
+	background-color: rgba(255,255,255,0.8);
+}
+
+.more a{
+	color: #797b7c;
+}
+
+.more a:hover{
+	color: pink;
+}
+/* 内容区域-左边区域-查看更多 End */
+/* 内容区域-左边区域 End */
+
+/* 内容区域-右边区域 Begin */
+#c_right {
+	width: 30%;
+}
+
+/* 内容区域-右边区域-关于我们 Begin */
+#c_right .right_about {
+	border: 1px solid #ccc;
+	background: rgba(255,255,255,0.5);
+	padding-bottom: 10px;
+}
+
+#c_right .right_about h2 {
+	font-size:14px;
+	background-color: #FFFFFF;
+	line-height: 30px;
+	padding-left: 20px;
+	color: #333;
+}
+
+#c_right .right_about img {
+	margin: 10px auto 10px;
+	padding-bottom: 10px;
+	height: auto;
+}
+
+#c_right .right_about p {
+	padding-left: 30px;
+	padding-right:30px;
+}
+
+#c_right .right_about p .b_1 {
+	display: block;
+	width: 93px;
+	height: 30px;
+	background: url("../images/qq_bg.png") no-repeat;
+}
+
+#c_right .right_about p .b_2 {
+	margin-left: 20px;
+	display: block;
+	width: 97px;
+	height: 25px;
+	background: url("../images/qq_bg.png") -93px 0 no-repeat;
+}
+/* 内容区域-右边区域-关于我们 End */
+
+/* 内容区域-右边区域-搜索框 Begin*/
+#c_right .right_search{
+	position: relative;
+	border-radius: 0 5px 5px 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color:#1D1718 ;
+}
+
+#c_right .right_search .search_input{
+	height: 30px;
+	width: 240px;
+	outline:0;
+	border: 1px solid #000000;
+}
+input::-webkit-input-placeholder{
+  color:rgb(153, 153, 153);
+  padding-left: 10px;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+  color:rgb(153, 153, 153);
+  padding-left: 10px;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+  color:rgb(153, 153, 153);
+  padding-left: 10px;
+}
+#c_right .search_input input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+  color:rgb(153, 153, 153);
+  padding-left: 10px;
+}
+#c_right .right_search .search_submit{
+	border: 0;
+	background:0;
+	color: #FFFFFF;
+	outline: 0;
+	display: inline-block;
+	position: absolute;
+	top:8px;
+	right: 6%;
+}
+/* 内容区域-右边区域-搜索框 End*/
+
+
+/* 内容区域-右边区域-文章分类 Begin */
+#c_right .lanmubox {
+	height: 180px;
+	border: 1px solid #ccc;
+	margin-top: 5px;
+	background: rgba(255,255,255,0.5);
+}
+
+#c_right .lanmubox h2 {
+	font-size:14px;
+	background-color: #FFFFFF;
+	line-height: 30px;
+	padding-left: 20px;
+	color: #333;
+}
+
+/* 内容区域-右边区域-文章分类 End */
+
+/* 内容区域-右边区域-友情链接 Begin */
+#c_right .link {
+	height: 180px;
+	border: 1px solid #ccc;
+	margin-top: 5px;
+	background: rgba(255,255,255,0.5);
+}
+
+#c_right .link h2 {
+	font-size:14px;
+	background-color: #FFFFFF;
+	line-height: 30px;
+	padding-left: 20px;
+	color: #333;
+}
+
+.link p {
+	padding: 10px 0px 0px 15px;
+}
+
+.link p a {
+	color: #444;
+}
+
+.link p a:hover {
+	color: #f00;
+}
+/* 内容区域-右边区域-友情链接 End */
+/* 内容区域-右边区域 End */
+/* 内容区域 End */
+
+
+

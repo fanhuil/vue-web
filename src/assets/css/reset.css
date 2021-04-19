@@ -1,0 +1,40 @@
+/* CSS Document */
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0px;
+}
+
+body {
+	font-size: 14px;
+	font-family: "微软雅黑";
+	background: #E3E3E5 url(../images/bg.jpg) 50% top scroll no-repeat;
+	color: #5d5d5d;
+	margin-bottom: 200px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	display: block;
+	border: 0px;
+}
+/*end*/

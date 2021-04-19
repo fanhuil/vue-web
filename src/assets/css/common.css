@@ -1,0 +1,274 @@
+/* 头部导航栏 Begin */
+#header {
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,.9);
+	border-bottom: 1px solid #ddd;
+	box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+	position: fixed;
+	top:0;
+	z-index: 9999;
+}
+
+.header_content{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#header span {
+	font-size: 22px;
+	color: #555;
+	padding: 10px 0 5px 0px;
+	/* font-weight: 600; */
+}
+
+.header_right{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction:row;
+	line-height: 40px;
+}
+
+.header_right .register,.login{
+	margin-right: 20px;
+	
+}
+.header_right a{
+	color: black;
+}
+
+#nav {
+	
+}
+
+#nav ul li {
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	text-align: center;
+	margin: 0px 2px 0px 0px;
+}
+
+#nav ul li a {
+	color: #555;
+	font-size: 16px;
+	width: 140px;
+	height: 30px;
+	display: block;
+}
+
+#nav ul li a:hover {
+	display: block;
+	width: 140px;
+	height: 30px;
+	border-radius: 3px;
+	color: #000;
+}
+
+#nav #nava {
+	display: block;
+	color: #f65a8a;
+	width: 140px;
+	height: 30px;
+	border-radius: 3px;
+}
+/* 头部导航栏 End */
+
+/* 当前位置 Begin*/
+.position {
+	height: 50px;
+	line-height: 50px;
+	background: url("../images/weizi.png") 7px 15px no-repeat;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+
+.position .wz_text {
+	font-size: 16px;
+	color: #444;
+	padding-left: 25px;
+}
+
+.position .wz_text h1 {
+	font-size: 16px;
+	color: #F00E71;
+	display: inline;
+	font-weight: 500;
+}
+
+.position .wz_text a {
+	color: #444;
+}
+
+.position .wz_text a:hover {
+	text-decoration: underline;
+	color: #f00;
+}
+/* 当前位置 End */
+
+/* 内容区域 Begin */
+#content {
+	width: 1000px;
+	margin: 100px auto;
+}
+
+
+/* 内容区域-左边区域-文章列表 Begin */
+#c_left .content_text {
+	
+}
+
+#c_left .content_text .wz {
+	background: rgba(255,255,255,0.8);
+    padding: 15px;
+    overflow: hidden;
+    color: #797b7c;
+    margin-bottom: 20px;
+}
+
+.wz h3 {
+	font-size: 16px;
+	line-height: 25px;
+	text-shadow: #fff 1px 1px 1px;
+}
+
+.wz h3 a {
+	color: #222;
+}
+
+.wz h3:hover {
+	padding-left: 20px;
+	transition: all 2s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+}
+
+.wz dl {
+	margin-top: 3px;
+}
+
+.wz dl dt {
+	float: left;
+	width: 204px;
+	height: 127px;
+	margin-left: 5px;
+	display: block;
+	border: 1px solid #ccc;
+}
+
+.wz dl dt img {
+	padding: 2px;
+}
+
+.wz dl dd {
+	width: 96%;
+	margin: 20px 0 0 0;
+	line-height: 22px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+}
+
+.wz dl dd .dd_text_1 {
+	height: 80px;
+	display: block;
+	overflow: hidden;
+}
+
+.wz dl dd .dd_text_2 {
+	line-height: 30px;
+	margin-top: 10px;
+}
+
+.wz dl dd .dd_text_2 span {
+	padding-left: 15px;
+}
+
+.wz dl dd .dd_text_2 .author {
+	display: block;
+	width: 60px;
+	height: 30px;
+	background: url("../images/tx.jpg") 5px 7px no-repeat;
+	padding-left: 25px;
+	margin-left: 20px;
+}
+
+.wz dl dd .dd_text_2 .sj {
+	display: block;
+	width: 120px;
+	height: 30px;
+	background: url("../images/sj.jpg") 5px 7px no-repeat;
+	padding-left: 25px;
+}
+
+.wz dl dd .dd_text_2 .fl {
+	display: block;
+	width: 110px;
+	heigt: 30px;
+	text-align: center;
+}
+
+.wz dl dd .dd_text_2 .fl a {
+	color: #1D1718;
+}
+
+.wz dl dd .dd_text_2 .yd {
+	display: block;
+	width: 110px;
+	height: 30px;
+	text-align: center;
+	margin-top: 3px;
+}
+
+.wz dl dd .dd_text_2 .yd a {
+	color: #F55522;
+	display: block;
+	width: 80px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	padddding: 2px 5px;
+	border: 1px solid #AC9696;
+	border-radius: 2px;
+}
+
+.wz dl dd .dd_text_2 .yd a:hover {
+	color: #f36;
+}
+/* 内容区域-左边区域-文章列表 End */
+
+/* 内容区域 End */
+
+/* 底部区域 Begin */
+#footer {
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #ccc;
+	background-color: #404040;
+	position: fixed;
+	bottom:0;
+	left: 0;
+	margin-top:50px;
+	z-index: 999;
+}
+
+#footer p {
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	line-height: 50px;
+}
+
+#footer p a {
+	color: #231C25;
+}
+/* 底部区域 End */
