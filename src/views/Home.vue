@@ -157,7 +157,7 @@
 import request from '@/utils/require.js'
 export default {
 	mounted() {
-		let a = request.get('http://www.fhlin.top/api/index')
+		let a = request.get('/api/index')
 		console.log(a)
 	}
 }

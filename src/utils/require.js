@@ -8,7 +8,8 @@ NProgress.configure({
 })
 
 const request = axios.create({
-  baseURL: process.env.VUE_APP_BASE_URL,
+  // baseURL: process.env.VUE_APP_BASE_URL,
+  baseURL: "http://www.fhlin.top",
   timeout: 12000,
   header: {
     'Content-Type': 'application/json'
@@ -19,7 +20,7 @@ const request = axios.create({
 // 请求拦截器
 request.interceptors.request.use(
   config => {
-    config.headers.token = store.state.token
+    config.headers.token1 = store.state.token
     NProgress.start()
     return config
   },
